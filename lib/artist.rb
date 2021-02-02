@@ -14,7 +14,8 @@ class Artist
 
   def songs
     Song.all.select { |song| if song.artist == self
-    song.artist }
+    song.artist
+  end }
   end
 
   def new_song(name, genre)
