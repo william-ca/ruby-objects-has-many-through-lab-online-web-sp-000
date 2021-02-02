@@ -16,6 +16,6 @@ class Artist
   def songs
     self.songs
   end
-  
+
 
 end
